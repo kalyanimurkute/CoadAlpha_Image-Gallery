@@ -32,6 +32,13 @@ h1 {
 }
 
 /* Gallery Grid Layout */
+.container {
+      margin-top: 20px;
+      padding: 8px;
+      background-color:white;
+      border-radius: 20px;
+     box-shadow: 10px 6px 15px rgba(10, 1, 7, 0.1);
+    }
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
